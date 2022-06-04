@@ -6,3 +6,4 @@ node_modules
 .env
 style-copy.css
 components/views/About-copy.js
+commit-msg.txt

@@ -520,6 +520,28 @@ footer ul li {
   background-size: cover;
 }
 
+/* Bubbles */
+.circle {
+  position: absolute;
+}
+
+.circle-1 {
+  left: -3%;
+  bottom: -3%;
+  transform: scale(2);
+}
+
+.circle-2 {
+  left: 35%;
+  bottom: 10%;
+}
+
+.circle-3 {
+  left: 20%;
+  top: 15%;
+  transform: scale(1.5);
+}
+
 @media only screen and (max-width: 768px) {
 
 /*---------------- Mobile & Tablet Styles - Header & Footer ----------------*/
