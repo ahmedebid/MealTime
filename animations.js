@@ -99,22 +99,22 @@ barba.init({
       },
     },
     // product page transitions
-    {
-      name: "product-transition",
-      sync: true,
-      from: { namespace: ["handbag", "product"] },
-      to: { namespace: ["product", "handbag"] },
-      enter(data) {
-        const done = this.async();
-        let next = data.next.container;
-        productEnterAnimation(next, done);
-      },
-      leave(data) {
-        const done = this.async();
-        let current = data.current.container;
-        productLeaveAnimation(current, done);
-      },
-    },
+    // {
+    //   name: "product-transition",
+    //   sync: true,
+    //   from: { namespace: ["handbag", "product"] },
+    //   to: { namespace: ["product", "handbag"] },
+    //   enter(data) {
+    //     const done = this.async();
+    //     let next = data.next.container;
+    //     productEnterAnimation(next, done);
+    //   },
+    //   leave(data) {
+    //     const done = this.async();
+    //     let current = data.current.container;
+    //     productLeaveAnimation(current, done);
+    //   },
+    // },
   ],
 });
 

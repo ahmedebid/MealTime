@@ -19,9 +19,60 @@ export default () => html`
           <label class="label" for="message">Message</label>
           <textarea name="message" id="message" cols="55" rows="10"></textarea>
         </div>
-  
+
         <button class="form-wrapper button" type="submit">Send</button>
       </form>
+    </section>
+
+    <section>
+      <svg
+        class="circle circle-1"
+        width="243"
+        height="243"
+        viewBox="0 0 243 243"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="121.5"
+          cy="121.5"
+          r="121.5"
+          fill="white"
+          fill-opacity="0.25"
+        />
+      </svg>
+      <svg
+        class="circle circle-2"
+        width="243"
+        height="243"
+        viewBox="0 0 243 243"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="121.5"
+          cy="121.5"
+          r="121.5"
+          fill="white"
+          fill-opacity="0.25"
+        />
+      </svg>
+      <svg
+        class="circle circle-3"
+        width="243"
+        height="243"
+        viewBox="0 0 243 243"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="121.5"
+          cy="121.5"
+          r="121.5"
+          fill="white"
+          fill-opacity="0.25"
+        />
+      </svg>
     </section>
   </main>
 `;
