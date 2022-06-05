@@ -93,4 +93,5 @@ export default () => html`
             <button class="button2"><img id="button-image" src="${googlePlay}" alt="google-play-icon" />
                 Download</button>
     </section>
-</main>`;
+</main>
+`;

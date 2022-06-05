@@ -94,6 +94,7 @@ nav ul {
   justify-content: center;
   font-family: "Lobster", cursive;
   font-size: 4rem;
+  /* -webkit-text-stroke: 2px black; */
 }
 
 #logo a:hover {
@@ -408,7 +409,7 @@ footer ul li {
 
 /* AHMED */
 #contact {
-  background: linear-gradient(260deg, #A78A68, #4F2606); /* AHMED */
+  background: linear-gradient(#4F2606, transparent); /* AHMED */
 }
 
 /* AHMED */
@@ -425,13 +426,13 @@ footer ul li {
 }
 
 .circle-1 {
-  left: -3%;
-  bottom: -3%;
+  right: 9%;
+  bottom: 9%;
   transform: scale(2);
 }
 
 .circle-2 {
-  left: 35%;
+  left: 5%;
   bottom: 10%;
 }
 
@@ -620,10 +621,11 @@ footer ul li {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* height: 10vh; */
   }
 
   footer h5 {
-    flex: 1 1 40rem;
+    flex: 1 1 20rem;
     text-align: center;
     padding-right: 4rem;
   }

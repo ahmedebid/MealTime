@@ -38,7 +38,7 @@ export default () => html`
           cy="121.5"
           r="121.5"
           fill="white"
-          fill-opacity="0.25"
+          fill-opacity="0.45"
         />
       </svg>
       <svg
@@ -54,7 +54,7 @@ export default () => html`
           cy="121.5"
           r="121.5"
           fill="white"
-          fill-opacity="0.25"
+          fill-opacity="0.45"
         />
       </svg>
       <svg
@@ -70,7 +70,7 @@ export default () => html`
           cy="121.5"
           r="121.5"
           fill="white"
-          fill-opacity="0.25"
+          fill-opacity="0.45"
         />
       </svg>
     </section>
